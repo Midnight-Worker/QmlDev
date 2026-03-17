@@ -1,0 +1,2 @@
+MSYS2_ARG_CONV_EXCL="*" adb -s FIRE60000000001187 push MainPage.qml /data/local/tmp/MainPage.qml
+MSYS2_ARG_CONV_EXCL="*" adb -s FIRE60000000001187 shell "run-as org.qtproject.example.appQmlDev cp /data/local/tmp/MainPage.qml /data/user/0/org.qtproject.example.appQmlDev/files/liveqml/MainPage.qml"
